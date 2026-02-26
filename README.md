@@ -35,7 +35,6 @@ The app focuses on simplicity, clean design, and essential features, making task
 - Task Details  
 - Profile / Settings  
 
-Wireframes for these screens were designed using **Figma** as part of the project proposal.
 
 ---
 
