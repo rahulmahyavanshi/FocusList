@@ -1,8 +1,8 @@
 # FocusList 📝  
-### A Smart Task Manager for Android
+### A Modern Task Manager for Android
 
-FocusList is a modern Android task management application designed to help users organize their daily activities, manage priorities, and stay productive.  
-The app focuses on simplicity, clean design, and essential features, making task management easy and effective.
+FocusList is a modern Android task management application designed to help users organize daily activities, manage priorities, and stay productive.  
+The app focuses on simplicity, clean design, and essential features, making task management easy and effective for everyday use.
 
 ---
 
@@ -12,8 +12,8 @@ The app focuses on simplicity, clean design, and essential features, making task
 - Set due dates for tasks  
 - Mark tasks as completed  
 - View detailed task information  
-- Smooth navigation using a bottom navigation bar  
-- Clean and colorful Material 3–inspired UI  
+- Bottom navigation for quick access to main sections  
+- Clean, colorful Material 3–inspired user interface  
 
 ---
 
@@ -28,40 +28,64 @@ The app focuses on simplicity, clean design, and essential features, making task
 ---
 
 ## 📱 App Screens
-- Splash Screen  
-- Task List (Home)  
-- Add Task  
-- Edit Task  
-- Task Details  
-- Profile / Settings  
 
+### Splash Screen
+![Splash Screen](screenshots/splash.png)
+
+### Task List
+![Task List Screen](screenshots/task_list.png)
+
+### Add Task
+![Add Task Screen](screenshots/add_task.png)
+
+### Edit Task
+![Edit Task Screen](screenshots/edit_task.png)
+
+### Task Details
+![Task Details Screen](screenshots/task_details.png)
+
+### Profile
+![Profile Screen](screenshots/profile.png)
 
 ---
 
 ## 🧠 Architecture Overview
-FocusList follows the **MVVM (Model–View–ViewModel)** architecture pattern:
-- **View:** Jetpack Compose UI screens  
-- **ViewModel:** Manages UI state and business logic  
-- **Model:** Repository and Room database for data persistence  
+FocusList follows the **Model–View–ViewModel (MVVM)** architecture pattern to maintain a clean separation of concerns.
 
-This structure improves code readability, maintainability, and testability.
+- **View:** Jetpack Compose UI screens responsible for displaying data and handling user interaction  
+- **ViewModel:** Manages UI state and business logic  
+- **Model:** Repository and Room database used for data persistence  
+
+This architecture improves maintainability, scalability, and testability.
+
+---
+
+## 🗄️ Database
+The application uses a local **Room database** to store task information, ensuring data persistence even when the app is closed.
+
+Each task includes:
+- Title  
+- Description  
+- Priority level  
+- Due date  
+- Completion status  
 
 ---
 
 ## 🧪 Testing
 The project includes:
-- Unit tests for task data operations  
-- Instrumentation (UI) tests for Jetpack Compose screens  
+- **Unit tests** to verify task data operations and business logic  
+- **Instrumentation (UI) tests** to validate Jetpack Compose screens and navigation  
 
-Testing ensures the app functions correctly and provides a reliable user experience.
+Testing ensures reliability and a consistent user experience.
 
 ---
 
 ## 🚧 Project Status
-🔹 Proposal phase completed  
-🔹 UI wireframes designed  
-🔹 Database and architecture planned  
-🔹 Implementation in progress  
+- ✅ Project proposal completed  
+- ✅ UI wireframes designed using Figma  
+- ✅ Database and architecture planned  
+- 🔄 Implementation in progress  
 
 ---
 
